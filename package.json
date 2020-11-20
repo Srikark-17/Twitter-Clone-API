@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Srikark-17/Twitter-Clone-API/issues"
   },
-  "homepage": "https://github.com/Srikark-17/Twitter-Clone-API#readme"
+  "homepage": "https://github.com/Srikark-17/Twitter-Clone-API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
