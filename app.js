@@ -5,6 +5,11 @@ const twitter = new Twitter();
 const port = 8080;
 require("dotenv").config();
 
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  next();
+});
+
 app.get("/tweets", (req, res) => {
   const query = req.query.q;
   const count = req.query.count;
